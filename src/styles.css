@@ -1,0 +1,57 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: lightblue;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  width: 100%;
+}
+
+.left-col,
+.right-col {
+  width: 50%;
+  float: left;
+}
+
+input,
+button {
+  padding: 8px;
+}
+
+button {
+  margin: 10px; 
+  background: red;
+  color: white;
+}
+
+h1,
+h2 {
+  margin: 10px 0 20px;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+ul {
+  margin: 20px;
+}
+
+ul li {
+  list-style: none;
+  animation-name: list;
+  animation-duration: 1s;
+  position: relative;
+}
+
+@keyframes list {
+  0% {opacity: 0; bottom: -2.5rem;}
+  100% {opacity: 1; bottom: 0rem;}
+}
+  
